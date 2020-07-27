@@ -1,0 +1,7012 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT city, colYear, colMonth, AVG(ArrDelay)
+	FROM Flights 
+left JOIN airports
+    ON flights.origin = airports.iata
+	GROUP BY colYear, colMonth, ArrDelay, city
+	ORDER BY colYear, colMonth, ArrDelay, city
+LIMIT 0, 1000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="city">Jackson</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Nome</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oklahoma City</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlottesville</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Burlington</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Covington</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Moline</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Indianapolis</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Albuquerque</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">29.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Amarillo</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Kotzebue</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Antonio</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ontario</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Seattle</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Milwaukee</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tampa</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Rochester</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">32.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">36.0000</field>
+	</row>
+
+	<row>
+		<field name="city">El Paso</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Midland</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Burbank</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oakland</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Richmond</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Providence</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Islip</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New Orleans</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tucson</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">78.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">126.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Columbus</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pueblo</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Covington</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Covington</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">23.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">27.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">28.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Birmingham</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">51.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">91.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dayton</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">265.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Miami</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Birmingham</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Reno</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Appleton</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Memphis</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Diego</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dayton</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Albany</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Burlington</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Orlando</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Seattle</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Miami</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Augusta</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">20.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">23.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Billings</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">26.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">32.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">36.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Indianapolis</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Syracuse</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Fairbanks</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Miami</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">41.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Windsor Locks</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Islip</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Nashville</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ontario</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ft. Lauderdale</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Huntington</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Jose</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tucson</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Miami</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">33.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Allentown</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">73.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Windsor Locks</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Miami</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Amarillo</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">NA</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">49.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Syracuse</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Philadelphia</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chantilly</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baton Rouge</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Raleigh</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Seattle</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Deadhorse</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Jackson</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Sacramento</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">31.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">100.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-26.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Honolulu</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oakland</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dayton</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tucson</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Philadelphia</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Spokane</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Burbank</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Lincoln</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Erie</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">40.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Eugene</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Sacramento</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Green Bay</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Syracuse</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Juan</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Buffalo</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Syracuse</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Columbia</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Kansas City</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Anchorage</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Covington</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New Orleans</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dayton</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Burbank</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Antonio</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Norfolk</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">44.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tulsa</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Jackson</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Jose</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Windsor Locks</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Philadelphia</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Spokane</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Colorado Springs</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Jacksonville</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Columbus</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Allentown</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">26.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-24.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Juan</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Orlando</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Reno</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Saginaw</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Antonio</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Sarasota</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Windsor Locks</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">42.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Augusta</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">57.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oakland</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">91.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">126.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-31.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Santa Ana</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Saginaw</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New Orleans</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Albuquerque</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Bismarck</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">36.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chantilly</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ft. Lauderdale</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oklahoma City</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Philadelphia</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Burbank</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Nashville</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Mobile</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Columbia</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">34.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Providence</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">48.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Greer</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">55.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">55.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ontario</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-31.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Rochester</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Rochester</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Wrangell</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chantilly</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oklahoma City</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Grand Canyon</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Rochester</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tampa</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">26.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">54.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boise</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tampa</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Madison</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Honolulu</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Indianapolis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Harlingen</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">West Palm Beach</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">28.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Nashville</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">29.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Norfolk</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">39.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">56.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Jose</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Covington</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Covington</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Christiansted</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boise</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Lubbock</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">28.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Reno</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ft. Lauderdale</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">El Paso</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Memphis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">22.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Norfolk</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">45.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Mobile</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">75.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Colorado Springs</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">88.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-24.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Harrisburg</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Syracuse</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Nashville</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oakland</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Antonio</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Seattle</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Raleigh</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chantilly</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">51.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">72.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newport News</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pensacola</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Miami</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">West Palm Beach</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Long Beach</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charleston</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">26.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Miami</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">26.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">37.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Diego</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">39.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-20.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Buffalo</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Covington</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ft. Lauderdale</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Omaha</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charleston</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">22.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">22.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Helena</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ft. Lauderdale</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Jose</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Lexington</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Huntington</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">32.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ontario</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ontario</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cedar Rapids</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pensacola</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Amarillo</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Rochester</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">28.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">56.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">56.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">85.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">90.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">NA</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New Orleans</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Antonio</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">20.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">22.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chantilly</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">39.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">100.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Norfolk</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Allentown</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Nashville</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Palm Springs</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Diego</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">28.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Burbank</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">40.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-24.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charleston</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Nashville</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tampa</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Columbia</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baton Rouge</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">20.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">33.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dayton</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Syracuse</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Seattle</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Antonio</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">37.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">44.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tampa</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">80.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-41.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dayton</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Omaha</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Norfolk</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Norfolk</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Albuquerque</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Philadelphia</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">West Palm Beach</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Austin</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-23.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Sarasota</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Seattle</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Santa Ana</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Jackson</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Indianapolis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Missoula</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Antonio</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Kansas City</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Raleigh</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Colorado Springs</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">32.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Indianapolis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">63.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">82.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Harrisburg</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Diego</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Indianapolis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Little Rock</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Santa Ana</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Orlando</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Norfolk</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Huntsville</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Memphis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Jose</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-32.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Richmond</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Orlando</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Savannah</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Melbourne</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Miami</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Burbank</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Rochester</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">28.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-18.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Diego</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-18.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chantilly</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Islip</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Austin</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Reno</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New Orleans</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oakland</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">27.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chantilly</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Corpus Christi</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tampa</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oklahoma City</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dayton</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">West Palm Beach</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Milwaukee</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">22.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">56.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-18.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oakland</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oklahoma City</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Greensboro</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Raleigh</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Diego</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Honolulu</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">20.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tulsa</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">28.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-25.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tucson</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Philadelphia</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Buffalo</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Orlando</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">El Paso</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New Orleans</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">20.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-21.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Jose</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-21.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Allentown</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Gainesville</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Seattle</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Orlando</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Buffalo</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Orlando</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Honolulu</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Covington</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">32.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Indianapolis</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">35.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">36.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">134.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Fort Wayne</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Omaha</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Seattle</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Seattle</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Providence</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Albuquerque</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">42.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">67.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-40.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Great Falls</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Memphis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Kansas City</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oklahoma City</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Oklahoma City</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Miami</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">75.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">100.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Palmdale</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dayton</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Providence</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Seattle</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Diego</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chantilly</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">48.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">61.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Miami</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">80.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Orlando</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-21.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baton Rouge</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Raleigh</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Indianapolis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Kansas City</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Antonio</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">75.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-22.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chantilly</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Burbank</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Savannah</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Jose</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pensacola</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Fairbanks</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ft. Myers</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Melbourne</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Buffalo</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-28.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Juan</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Philadelphia</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Columbus</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ft. Lauderdale</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Colorado Springs</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Allentown</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Diego</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Nashville</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Miami</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">150.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Providence</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pueblo</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Orlando</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Jose</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Green Bay</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">22.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">39.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Raleigh</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">45.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Philadelphia</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">66.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-21.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Seattle</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Tulsa</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Burbank</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Diego</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cedar Rapids</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Harrisburg</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-23.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Juan</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-23.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Buffalo</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Buffalo</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chantilly</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Little Rock</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Kansas City</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Jacksonville</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">El Paso</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Norfolk</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Diego</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">22.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-18.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Orlando</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Philadelphia</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Jose</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">45.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">47.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-23.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-17.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">El Paso</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ft. Lauderdale</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ft. Myers</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ft. Lauderdale</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ontario</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">45.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ft. Lauderdale</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">106.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Miami</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-26.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chantilly</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Orlando</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Reno</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Corpus Christi</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Diego</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">62.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-19.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Austin</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Milwaukee</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Montgomery</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Las Vegas</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Omaha</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Baltimore</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Orlando</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Harrisburg</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">43.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Indianapolis</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Jacksonville</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Columbus</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Diego</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Covington</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">20.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Bozeman</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Spokane</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Burbank</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Detroit</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Houston</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Jose</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New Orleans</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Yuma</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Los Angeles</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">St Louis</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Juneau</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Champaign/Urbana</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">35.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Santa Ana</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Kansas City</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Raleigh</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Shreveport</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Anchorage</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Boston</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Little Rock</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">66.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Santa Ana</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-35.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Santa Ana</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chicago</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Allentown</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Syracuse</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Raleigh</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Reno</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Honolulu</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Newark</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Chattanooga</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Francisco</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Covington</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Seattle</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Yakutat</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">55.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ontario</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Buffalo</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Charlotte</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Juan</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Minneapolis</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ontario</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Salt Lake City</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Covington</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Bismarck</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">23.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Wichita</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">27.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">32.0000</field>
+	</row>
+
+	<row>
+		<field name="city">New York</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">208.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Dallas-Fort Worth</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Rochester</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Santa Ana</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Indianapolis</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Arlington</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Jackson</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Rochester</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="city">El Paso</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Harrisburg</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Ft. Myers</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Portland</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Richmond</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="city">McAllen</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Pittsburgh</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Denver</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">74.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Cleveland</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="city">San Jose</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Atlanta</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Little Rock</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="city">Phoenix</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+</resultset>

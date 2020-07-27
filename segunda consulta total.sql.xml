@@ -1,0 +1,1288 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT Origin, AVG(ArrDelay)as 'Prom_aribades', AVG(DepDelay) as 'Prom_sortides'  
+FROM flights
+GROUP BY origin
+ORDER BY origin
+LIMIT 0, 1000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="Origin">ABE</field>
+		<field name="Prom_aribades">17.1250</field>
+		<field name="Prom_sortides">15.7500</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="Prom_aribades">3.8158</field>
+		<field name="Prom_sortides">6.8684</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABY</field>
+		<field name="Prom_aribades">4.5000</field>
+		<field name="Prom_sortides">19.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AGS</field>
+		<field name="Prom_aribades">19.0000</field>
+		<field name="Prom_sortides">15.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">ALB</field>
+		<field name="Prom_aribades">-2.2500</field>
+		<field name="Prom_sortides">-0.1250</field>
+	</row>
+
+	<row>
+		<field name="Origin">AMA</field>
+		<field name="Prom_aribades">1.2500</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="Prom_aribades">1.8571</field>
+		<field name="Prom_sortides">3.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ASE</field>
+		<field name="Prom_aribades">7.0000</field>
+		<field name="Prom_sortides">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="Prom_aribades">9.5720</field>
+		<field name="Prom_sortides">9.8833</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATW</field>
+		<field name="Prom_aribades">0.6667</field>
+		<field name="Prom_sortides">1.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="Prom_aribades">1.5455</field>
+		<field name="Prom_sortides">1.2273</field>
+	</row>
+
+	<row>
+		<field name="Origin">AVL</field>
+		<field name="Prom_aribades">-7.6667</field>
+		<field name="Prom_sortides">-3.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">AZO</field>
+		<field name="Prom_aribades">-10.0000</field>
+		<field name="Prom_sortides">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="Prom_aribades">-4.4348</field>
+		<field name="Prom_sortides">2.7826</field>
+	</row>
+
+	<row>
+		<field name="Origin">BET</field>
+		<field name="Prom_aribades">1.0000</field>
+		<field name="Prom_sortides">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BFL</field>
+		<field name="Prom_aribades">-6.0000</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BGR</field>
+		<field name="Prom_aribades">45.0000</field>
+		<field name="Prom_sortides">60.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="Prom_aribades">5.7500</field>
+		<field name="Prom_sortides">8.3750</field>
+	</row>
+
+	<row>
+		<field name="Origin">BIL</field>
+		<field name="Prom_aribades">14.0000</field>
+		<field name="Prom_sortides">4.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BIS</field>
+		<field name="Prom_aribades">17.0000</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="Prom_aribades">7.8936</field>
+		<field name="Prom_sortides">8.9574</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOI</field>
+		<field name="Prom_aribades">3.6667</field>
+		<field name="Prom_sortides">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="Prom_aribades">5.8286</field>
+		<field name="Prom_sortides">8.3238</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTR</field>
+		<field name="Prom_aribades">7.6667</field>
+		<field name="Prom_sortides">-0.8333</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTV</field>
+		<field name="Prom_aribades">-11.4444</field>
+		<field name="Prom_sortides">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="Prom_aribades">1.6818</field>
+		<field name="Prom_sortides">4.4091</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="Prom_aribades">6.0000</field>
+		<field name="Prom_sortides">6.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="Prom_aribades">13.2794</field>
+		<field name="Prom_sortides">12.4559</field>
+	</row>
+
+	<row>
+		<field name="Origin">BZN</field>
+		<field name="Prom_aribades">-5.5000</field>
+		<field name="Prom_sortides">-1.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CAE</field>
+		<field name="Prom_aribades">16.8750</field>
+		<field name="Prom_sortides">22.7500</field>
+	</row>
+
+	<row>
+		<field name="Origin">CHA</field>
+		<field name="Prom_aribades">5.0000</field>
+		<field name="Prom_sortides">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CHO</field>
+		<field name="Prom_aribades">1.0000</field>
+		<field name="Prom_sortides">-0.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CHS</field>
+		<field name="Prom_aribades">21.6000</field>
+		<field name="Prom_sortides">18.8000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CID</field>
+		<field name="Prom_aribades">12.2000</field>
+		<field name="Prom_sortides">7.8000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="Prom_aribades">4.4154</field>
+		<field name="Prom_sortides">5.6154</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLL</field>
+		<field name="Prom_aribades">-16.0000</field>
+		<field name="Prom_sortides">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="Prom_aribades">10.2653</field>
+		<field name="Prom_sortides">12.6020</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="Prom_aribades">13.6429</field>
+		<field name="Prom_sortides">13.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMI</field>
+		<field name="Prom_aribades">-1.0000</field>
+		<field name="Prom_sortides">-1.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="Prom_aribades">20.4167</field>
+		<field name="Prom_sortides">20.1667</field>
+	</row>
+
+	<row>
+		<field name="Origin">CRP</field>
+		<field name="Prom_aribades">-6.8333</field>
+		<field name="Prom_sortides">-2.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">CRW</field>
+		<field name="Prom_aribades">14.0000</field>
+		<field name="Prom_sortides">17.7500</field>
+	</row>
+
+	<row>
+		<field name="Origin">CSG</field>
+		<field name="Prom_aribades">18.0000</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="Prom_aribades">6.2500</field>
+		<field name="Prom_sortides">6.1750</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAB</field>
+		<field name="Prom_aribades">24.0000</field>
+		<field name="Prom_sortides">20.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="Prom_aribades">7.3095</field>
+		<field name="Prom_sortides">8.4286</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAY</field>
+		<field name="Prom_aribades">27.8000</field>
+		<field name="Prom_sortides">31.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="Prom_aribades">3.8485</field>
+		<field name="Prom_sortides">3.1970</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="Prom_aribades">5.1681</field>
+		<field name="Prom_sortides">6.4454</field>
+	</row>
+
+	<row>
+		<field name="Origin">DET</field>
+		<field name="Prom_aribades">1.6667</field>
+		<field name="Prom_sortides">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DFW</field>
+		<field name="Prom_aribades">6.1975</field>
+		<field name="Prom_sortides">9.2058</field>
+	</row>
+
+	<row>
+		<field name="Origin">DSM</field>
+		<field name="Prom_aribades">-4.6667</field>
+		<field name="Prom_sortides">-1.8333</field>
+	</row>
+
+	<row>
+		<field name="Origin">DTW</field>
+		<field name="Prom_aribades">12.8700</field>
+		<field name="Prom_sortides">12.9600</field>
+	</row>
+
+	<row>
+		<field name="Origin">EGE</field>
+		<field name="Prom_aribades">480.0000</field>
+		<field name="Prom_sortides">496.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">EKO</field>
+		<field name="Prom_aribades">-14.5000</field>
+		<field name="Prom_sortides">-4.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ELP</field>
+		<field name="Prom_aribades">-0.5500</field>
+		<field name="Prom_sortides">1.9000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ERI</field>
+		<field name="Prom_aribades">4.5000</field>
+		<field name="Prom_sortides">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">EUG</field>
+		<field name="Prom_aribades">7.0000</field>
+		<field name="Prom_sortides">15.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">EVV</field>
+		<field name="Prom_aribades">2.0000</field>
+		<field name="Prom_sortides">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">EWR</field>
+		<field name="Prom_aribades">13.3839</field>
+		<field name="Prom_sortides">13.9196</field>
+	</row>
+
+	<row>
+		<field name="Origin">FAI</field>
+		<field name="Prom_aribades">4.0000</field>
+		<field name="Prom_sortides">4.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">FAT</field>
+		<field name="Prom_aribades">-3.3333</field>
+		<field name="Prom_sortides">-1.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">FAY</field>
+		<field name="Prom_aribades">1.0000</field>
+		<field name="Prom_sortides">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">FLL</field>
+		<field name="Prom_aribades">22.4186</field>
+		<field name="Prom_sortides">22.7674</field>
+	</row>
+
+	<row>
+		<field name="Origin">FNT</field>
+		<field name="Prom_aribades">-4.0000</field>
+		<field name="Prom_sortides">-7.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">FSD</field>
+		<field name="Prom_aribades">2.7500</field>
+		<field name="Prom_sortides">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">FWA</field>
+		<field name="Prom_aribades">-2.0000</field>
+		<field name="Prom_sortides">-0.8333</field>
+	</row>
+
+	<row>
+		<field name="Origin">GCN</field>
+		<field name="Prom_aribades">-3.0000</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">GEG</field>
+		<field name="Prom_aribades">3.2143</field>
+		<field name="Prom_sortides">5.3571</field>
+	</row>
+
+	<row>
+		<field name="Origin">GFK</field>
+		<field name="Prom_aribades">6.0000</field>
+		<field name="Prom_sortides">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">GNV</field>
+		<field name="Prom_aribades">79.3333</field>
+		<field name="Prom_sortides">78.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">GPT</field>
+		<field name="Prom_aribades">5.6667</field>
+		<field name="Prom_sortides">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">GRB</field>
+		<field name="Prom_aribades">2.5000</field>
+		<field name="Prom_sortides">-0.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">GRK</field>
+		<field name="Prom_aribades">7.0000</field>
+		<field name="Prom_sortides">1.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">GRR</field>
+		<field name="Prom_aribades">-3.8333</field>
+		<field name="Prom_sortides">-1.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">GSO</field>
+		<field name="Prom_aribades">-5.3077</field>
+		<field name="Prom_sortides">-1.8462</field>
+	</row>
+
+	<row>
+		<field name="Origin">GSP</field>
+		<field name="Prom_aribades">11.0000</field>
+		<field name="Prom_sortides">15.1667</field>
+	</row>
+
+	<row>
+		<field name="Origin">GTF</field>
+		<field name="Prom_aribades">-6.0000</field>
+		<field name="Prom_sortides">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">HDN</field>
+		<field name="Prom_aribades">1.0000</field>
+		<field name="Prom_sortides">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">HLN</field>
+		<field name="Prom_aribades">24.0000</field>
+		<field name="Prom_sortides">14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">HNL</field>
+		<field name="Prom_aribades">22.9048</field>
+		<field name="Prom_sortides">25.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">HOU</field>
+		<field name="Prom_aribades">8.1667</field>
+		<field name="Prom_sortides">9.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">HPN</field>
+		<field name="Prom_aribades">24.2500</field>
+		<field name="Prom_sortides">34.7500</field>
+	</row>
+
+	<row>
+		<field name="Origin">HRL</field>
+		<field name="Prom_aribades">-3.5000</field>
+		<field name="Prom_sortides">-0.7500</field>
+	</row>
+
+	<row>
+		<field name="Origin">HSV</field>
+		<field name="Prom_aribades">10.7143</field>
+		<field name="Prom_sortides">10.5714</field>
+	</row>
+
+	<row>
+		<field name="Origin">HTS</field>
+		<field name="Prom_aribades">0.3333</field>
+		<field name="Prom_sortides">0.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">IAD</field>
+		<field name="Prom_aribades">0.6591</field>
+		<field name="Prom_sortides">2.8409</field>
+	</row>
+
+	<row>
+		<field name="Origin">IAH</field>
+		<field name="Prom_aribades">4.8396</field>
+		<field name="Prom_sortides">5.6415</field>
+	</row>
+
+	<row>
+		<field name="Origin">ICT</field>
+		<field name="Prom_aribades">10.1429</field>
+		<field name="Prom_sortides">8.7143</field>
+	</row>
+
+	<row>
+		<field name="Origin">IDA</field>
+		<field name="Prom_aribades">31.0000</field>
+		<field name="Prom_sortides">35.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ILM</field>
+		<field name="Prom_aribades">9.0000</field>
+		<field name="Prom_sortides">-3.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">IND</field>
+		<field name="Prom_aribades">22.7647</field>
+		<field name="Prom_sortides">22.8235</field>
+	</row>
+
+	<row>
+		<field name="Origin">ISP</field>
+		<field name="Prom_aribades">1.8000</field>
+		<field name="Prom_sortides">6.3000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ITO</field>
+		<field name="Prom_aribades">-2.6667</field>
+		<field name="Prom_sortides">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">JAC</field>
+		<field name="Prom_aribades">11.0000</field>
+		<field name="Prom_sortides">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">JAN</field>
+		<field name="Prom_aribades">-2.7273</field>
+		<field name="Prom_sortides">1.1818</field>
+	</row>
+
+	<row>
+		<field name="Origin">JAX</field>
+		<field name="Prom_aribades">3.6667</field>
+		<field name="Prom_sortides">4.2778</field>
+	</row>
+
+	<row>
+		<field name="Origin">JFK</field>
+		<field name="Prom_aribades">24.3485</field>
+		<field name="Prom_sortides">26.3788</field>
+	</row>
+
+	<row>
+		<field name="Origin">JNU</field>
+		<field name="Prom_aribades">16.6667</field>
+		<field name="Prom_sortides">13.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">KOA</field>
+		<field name="Prom_aribades">-5.8571</field>
+		<field name="Prom_sortides">-2.2857</field>
+	</row>
+
+	<row>
+		<field name="Origin">KTN</field>
+		<field name="Prom_aribades">-18.5000</field>
+		<field name="Prom_sortides">-8.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">LAN</field>
+		<field name="Prom_aribades">10.0000</field>
+		<field name="Prom_sortides">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">LAS</field>
+		<field name="Prom_aribades">6.7882</field>
+		<field name="Prom_sortides">7.5647</field>
+	</row>
+
+	<row>
+		<field name="Origin">LAX</field>
+		<field name="Prom_aribades">3.6599</field>
+		<field name="Prom_sortides">7.0816</field>
+	</row>
+
+	<row>
+		<field name="Origin">LBB</field>
+		<field name="Prom_aribades">1.6000</field>
+		<field name="Prom_sortides">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">LEX</field>
+		<field name="Prom_aribades">-5.3333</field>
+		<field name="Prom_sortides">-0.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">LGA</field>
+		<field name="Prom_aribades">11.9043</field>
+		<field name="Prom_sortides">10.2261</field>
+	</row>
+
+	<row>
+		<field name="Origin">LGB</field>
+		<field name="Prom_aribades">11.0000</field>
+		<field name="Prom_sortides">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">LIH</field>
+		<field name="Prom_aribades">1.0000</field>
+		<field name="Prom_sortides">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">LIT</field>
+		<field name="Prom_aribades">9.0000</field>
+		<field name="Prom_sortides">7.1111</field>
+	</row>
+
+	<row>
+		<field name="Origin">LNK</field>
+		<field name="Prom_aribades">-4.5000</field>
+		<field name="Prom_sortides">-3.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MAF</field>
+		<field name="Prom_aribades">-3.4000</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MBS</field>
+		<field name="Prom_aribades">-1.3333</field>
+		<field name="Prom_sortides">-0.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">MCI</field>
+		<field name="Prom_aribades">19.2889</field>
+		<field name="Prom_sortides">19.2000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MCN</field>
+		<field name="Prom_aribades">5.0000</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MCO</field>
+		<field name="Prom_aribades">10.6269</field>
+		<field name="Prom_sortides">13.4478</field>
+	</row>
+
+	<row>
+		<field name="Origin">MDT</field>
+		<field name="Prom_aribades">7.8750</field>
+		<field name="Prom_sortides">1.6250</field>
+	</row>
+
+	<row>
+		<field name="Origin">MDW</field>
+		<field name="Prom_aribades">6.2619</field>
+		<field name="Prom_sortides">9.2857</field>
+	</row>
+
+	<row>
+		<field name="Origin">MEM</field>
+		<field name="Prom_aribades">6.0238</field>
+		<field name="Prom_sortides">6.0714</field>
+	</row>
+
+	<row>
+		<field name="Origin">MFE</field>
+		<field name="Prom_aribades">-4.5000</field>
+		<field name="Prom_sortides">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MFR</field>
+		<field name="Prom_aribades">11.0000</field>
+		<field name="Prom_sortides">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MGM</field>
+		<field name="Prom_aribades">-2.0000</field>
+		<field name="Prom_sortides">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MHT</field>
+		<field name="Prom_aribades">-1.5000</field>
+		<field name="Prom_sortides">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MIA</field>
+		<field name="Prom_aribades">5.9706</field>
+		<field name="Prom_sortides">8.6618</field>
+	</row>
+
+	<row>
+		<field name="Origin">MKE</field>
+		<field name="Prom_aribades">-1.1538</field>
+		<field name="Prom_sortides">0.4615</field>
+	</row>
+
+	<row>
+		<field name="Origin">MLB</field>
+		<field name="Prom_aribades">35.6667</field>
+		<field name="Prom_sortides">37.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">MLI</field>
+		<field name="Prom_aribades">5.4000</field>
+		<field name="Prom_sortides">1.4000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MLU</field>
+		<field name="Prom_aribades">0.0000</field>
+		<field name="Prom_sortides">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MOB</field>
+		<field name="Prom_aribades">21.0000</field>
+		<field name="Prom_sortides">13.8000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MOD</field>
+		<field name="Prom_aribades">-13.0000</field>
+		<field name="Prom_sortides">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MOT</field>
+		<field name="Prom_aribades">-5.0000</field>
+		<field name="Prom_sortides">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MRY</field>
+		<field name="Prom_aribades">-4.5000</field>
+		<field name="Prom_sortides">-2.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MSN</field>
+		<field name="Prom_aribades">4.0000</field>
+		<field name="Prom_sortides">1.4286</field>
+	</row>
+
+	<row>
+		<field name="Origin">MSO</field>
+		<field name="Prom_aribades">-4.6667</field>
+		<field name="Prom_sortides">-1.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">MSP</field>
+		<field name="Prom_aribades">3.6036</field>
+		<field name="Prom_sortides">5.7207</field>
+	</row>
+
+	<row>
+		<field name="Origin">MSY</field>
+		<field name="Prom_aribades">1.8621</field>
+		<field name="Prom_sortides">1.6552</field>
+	</row>
+
+	<row>
+		<field name="Origin">MTJ</field>
+		<field name="Prom_aribades">37.0000</field>
+		<field name="Prom_sortides">41.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">MYR</field>
+		<field name="Prom_aribades">-8.0000</field>
+		<field name="Prom_sortides">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">OAK</field>
+		<field name="Prom_aribades">3.3000</field>
+		<field name="Prom_sortides">4.4250</field>
+	</row>
+
+	<row>
+		<field name="Origin">OGG</field>
+		<field name="Prom_aribades">0.0000</field>
+		<field name="Prom_sortides">-0.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">OKC</field>
+		<field name="Prom_aribades">-1.8667</field>
+		<field name="Prom_sortides">2.0667</field>
+	</row>
+
+	<row>
+		<field name="Origin">OMA</field>
+		<field name="Prom_aribades">21.9500</field>
+		<field name="Prom_sortides">23.9000</field>
+	</row>
+
+	<row>
+		<field name="Origin">OME</field>
+		<field name="Prom_aribades">-5.5000</field>
+		<field name="Prom_sortides">-6.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">ONT</field>
+		<field name="Prom_aribades">2.3448</field>
+		<field name="Prom_sortides">4.4828</field>
+	</row>
+
+	<row>
+		<field name="Origin">ORD</field>
+		<field name="Prom_aribades">12.4648</field>
+		<field name="Prom_sortides">13.0859</field>
+	</row>
+
+	<row>
+		<field name="Origin">ORF</field>
+		<field name="Prom_aribades">6.1579</field>
+		<field name="Prom_sortides">5.7368</field>
+	</row>
+
+	<row>
+		<field name="Origin">OTZ</field>
+		<field name="Prom_aribades">9.6667</field>
+		<field name="Prom_sortides">3.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">OXR</field>
+		<field name="Prom_aribades">-2.0000</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">PBI</field>
+		<field name="Prom_aribades">5.7619</field>
+		<field name="Prom_sortides">9.0476</field>
+	</row>
+
+	<row>
+		<field name="Origin">PDX</field>
+		<field name="Prom_aribades">2.1250</field>
+		<field name="Prom_sortides">3.6875</field>
+	</row>
+
+	<row>
+		<field name="Origin">PHF</field>
+		<field name="Prom_aribades">-12.5000</field>
+		<field name="Prom_sortides">1.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">PHL</field>
+		<field name="Prom_aribades">5.7667</field>
+		<field name="Prom_sortides">9.4833</field>
+	</row>
+
+	<row>
+		<field name="Origin">PHX</field>
+		<field name="Prom_aribades">9.4925</field>
+		<field name="Prom_sortides">12.8433</field>
+	</row>
+
+	<row>
+		<field name="Origin">PIA</field>
+		<field name="Prom_aribades">-6.3333</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">PIE</field>
+		<field name="Prom_aribades">14.0000</field>
+		<field name="Prom_sortides">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">PIT</field>
+		<field name="Prom_aribades">7.3855</field>
+		<field name="Prom_sortides">6.8313</field>
+	</row>
+
+	<row>
+		<field name="Origin">PMD</field>
+		<field name="Prom_aribades">-11.0000</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">PNS</field>
+		<field name="Prom_aribades">1.4000</field>
+		<field name="Prom_sortides">1.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">PSC</field>
+		<field name="Prom_aribades">9.0000</field>
+		<field name="Prom_sortides">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">PSP</field>
+		<field name="Prom_aribades">-3.7500</field>
+		<field name="Prom_sortides">-4.2500</field>
+	</row>
+
+	<row>
+		<field name="Origin">PUB</field>
+		<field name="Prom_aribades">3.5000</field>
+		<field name="Prom_sortides">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">PVD</field>
+		<field name="Prom_aribades">1.3889</field>
+		<field name="Prom_sortides">6.1667</field>
+	</row>
+
+	<row>
+		<field name="Origin">PWM</field>
+		<field name="Prom_aribades">-6.1429</field>
+		<field name="Prom_sortides">3.1429</field>
+	</row>
+
+	<row>
+		<field name="Origin">RAP</field>
+		<field name="Prom_aribades">-19.0000</field>
+		<field name="Prom_sortides">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">RDD</field>
+		<field name="Prom_aribades">-4.0000</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">RDU</field>
+		<field name="Prom_aribades">12.8372</field>
+		<field name="Prom_sortides">12.5814</field>
+	</row>
+
+	<row>
+		<field name="Origin">RIC</field>
+		<field name="Prom_aribades">-4.2500</field>
+		<field name="Prom_sortides">-0.9167</field>
+	</row>
+
+	<row>
+		<field name="Origin">RNO</field>
+		<field name="Prom_aribades">1.1905</field>
+		<field name="Prom_sortides">2.4762</field>
+	</row>
+
+	<row>
+		<field name="Origin">ROA</field>
+		<field name="Prom_aribades">20.5000</field>
+		<field name="Prom_sortides">11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ROC</field>
+		<field name="Prom_aribades">4.7333</field>
+		<field name="Prom_sortides">5.2000</field>
+	</row>
+
+	<row>
+		<field name="Origin">RST</field>
+		<field name="Prom_aribades">4.0000</field>
+		<field name="Prom_sortides">-3.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">RSW</field>
+		<field name="Prom_aribades">22.3571</field>
+		<field name="Prom_sortides">20.4286</field>
+	</row>
+
+	<row>
+		<field name="Origin">SAN</field>
+		<field name="Prom_aribades">4.1930</field>
+		<field name="Prom_sortides">7.1754</field>
+	</row>
+
+	<row>
+		<field name="Origin">SAT</field>
+		<field name="Prom_aribades">26.8000</field>
+		<field name="Prom_sortides">27.2667</field>
+	</row>
+
+	<row>
+		<field name="Origin">SAV</field>
+		<field name="Prom_aribades">14.3333</field>
+		<field name="Prom_sortides">18.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">SBA</field>
+		<field name="Prom_aribades">2.0000</field>
+		<field name="Prom_sortides">0.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">SBN</field>
+		<field name="Prom_aribades">-2.0000</field>
+		<field name="Prom_sortides">1.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">SBP</field>
+		<field name="Prom_aribades">9.2000</field>
+		<field name="Prom_sortides">4.4000</field>
+	</row>
+
+	<row>
+		<field name="Origin">SCC</field>
+		<field name="Prom_aribades">-1.6667</field>
+		<field name="Prom_sortides">-4.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">SCE</field>
+		<field name="Prom_aribades">-5.0000</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">SDF</field>
+		<field name="Prom_aribades">-3.1538</field>
+		<field name="Prom_sortides">-0.2308</field>
+	</row>
+
+	<row>
+		<field name="Origin">SEA</field>
+		<field name="Prom_aribades">3.6087</field>
+		<field name="Prom_sortides">4.9710</field>
+	</row>
+
+	<row>
+		<field name="Origin">SFO</field>
+		<field name="Prom_aribades">4.5391</field>
+		<field name="Prom_sortides">7.4000</field>
+	</row>
+
+	<row>
+		<field name="Origin">SGF</field>
+		<field name="Prom_aribades">-4.0000</field>
+		<field name="Prom_sortides">-3.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">SHV</field>
+		<field name="Prom_aribades">-6.2000</field>
+		<field name="Prom_sortides">-0.8000</field>
+	</row>
+
+	<row>
+		<field name="Origin">SIT</field>
+		<field name="Prom_aribades">-16.0000</field>
+		<field name="Prom_sortides">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">SJC</field>
+		<field name="Prom_aribades">-2.7250</field>
+		<field name="Prom_sortides">0.5500</field>
+	</row>
+
+	<row>
+		<field name="Origin">SJT</field>
+		<field name="Prom_aribades">11.0000</field>
+		<field name="Prom_sortides">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">SJU</field>
+		<field name="Prom_aribades">-1.3182</field>
+		<field name="Prom_sortides">3.5455</field>
+	</row>
+
+	<row>
+		<field name="Origin">SLC</field>
+		<field name="Prom_aribades">7.3971</field>
+		<field name="Prom_sortides">8.3529</field>
+	</row>
+
+	<row>
+		<field name="Origin">SMF</field>
+		<field name="Prom_aribades">6.0000</field>
+		<field name="Prom_sortides">9.4167</field>
+	</row>
+
+	<row>
+		<field name="Origin">SMX</field>
+		<field name="Prom_aribades">-2.0000</field>
+		<field name="Prom_sortides">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">SNA</field>
+		<field name="Prom_aribades">4.7813</field>
+		<field name="Prom_sortides">6.3125</field>
+	</row>
+
+	<row>
+		<field name="Origin">SPN</field>
+		<field name="Prom_aribades">3.0000</field>
+		<field name="Prom_sortides">4.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">SPS</field>
+		<field name="Prom_aribades">-10.0000</field>
+		<field name="Prom_sortides">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">SRQ</field>
+		<field name="Prom_aribades">-5.3333</field>
+		<field name="Prom_sortides">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">STL</field>
+		<field name="Prom_aribades">4.1959</field>
+		<field name="Prom_sortides">6.2062</field>
+	</row>
+
+	<row>
+		<field name="Origin">STT</field>
+		<field name="Prom_aribades">1.8000</field>
+		<field name="Prom_sortides">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">STX</field>
+		<field name="Prom_aribades">0.5000</field>
+		<field name="Prom_sortides">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">SYR</field>
+		<field name="Prom_aribades">2.6316</field>
+		<field name="Prom_sortides">5.6842</field>
+	</row>
+
+	<row>
+		<field name="Origin">TLH</field>
+		<field name="Prom_aribades">6.3333</field>
+		<field name="Prom_sortides">3.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">TOL</field>
+		<field name="Prom_aribades">-6.5000</field>
+		<field name="Prom_sortides">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">TPA</field>
+		<field name="Prom_aribades">3.9000</field>
+		<field name="Prom_sortides">4.9500</field>
+	</row>
+
+	<row>
+		<field name="Origin">TUL</field>
+		<field name="Prom_aribades">1.5714</field>
+		<field name="Prom_sortides">1.3571</field>
+	</row>
+
+	<row>
+		<field name="Origin">TUS</field>
+		<field name="Prom_aribades">16.5714</field>
+		<field name="Prom_sortides">19.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">TVC</field>
+		<field name="Prom_aribades">-6.6667</field>
+		<field name="Prom_sortides">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">TXK</field>
+		<field name="Prom_aribades">0.0000</field>
+		<field name="Prom_sortides">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">TYS</field>
+		<field name="Prom_aribades">-7.6000</field>
+		<field name="Prom_sortides">-3.4000</field>
+	</row>
+
+	<row>
+		<field name="Origin">VPS</field>
+		<field name="Prom_aribades">15.0000</field>
+		<field name="Prom_sortides">21.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">WRG</field>
+		<field name="Prom_aribades">12.5000</field>
+		<field name="Prom_sortides">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">XNA</field>
+		<field name="Prom_aribades">3.2500</field>
+		<field name="Prom_sortides">-1.7500</field>
+	</row>
+
+	<row>
+		<field name="Origin">YAK</field>
+		<field name="Prom_aribades">55.0000</field>
+		<field name="Prom_sortides">58.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">YUM</field>
+		<field name="Prom_aribades">18.6667</field>
+		<field name="Prom_sortides">12.3333</field>
+	</row>
+</resultset>

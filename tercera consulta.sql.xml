@@ -1,0 +1,7010 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT Origin, colYear, colMonth, AVG(ArrDelay) 
+	FROM Flights 
+	GROUP BY Origin, colYear, colMonth 
+	ORDER BY Origin, colYear, colMonth
+LIMIT 0, 1000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="Origin">ABE</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">73.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABE</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">26.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABE</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABE</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABE</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABE</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABE</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABE</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">60.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">89.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">35.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-27.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">16.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABQ</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABY</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ABY</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AGS</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AGS</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">57.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AGS</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ALB</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ALB</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ALB</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ALB</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ALB</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ALB</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ALB</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ALB</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AMA</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AMA</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AMA</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AMA</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">50.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-21.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ANC</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-28.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ASE</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-2.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">23.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">12.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">1.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">20.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">72.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">54.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">44.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">6.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">20.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">32.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">13.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">22.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">37.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">31.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">5.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">23.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">6.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">25.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-24.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">5.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">2.7500</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">29.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">19.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">11.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">33.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">37.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">3.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">49.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">29.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">36.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-16.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">25.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-6.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">18.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">27.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">38.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">52.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">50.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-2.2500</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">18.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">2.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">62.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">2.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">41.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">9.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">15.6000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">25.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">42.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">6.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">24.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">86.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">41.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">4.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">33.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">54.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-14.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">0.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">30.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">1.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">4.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATW</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATW</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">ATW</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">32.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">25.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AUS</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-0.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AVL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AVL</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AVL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">AZO</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-19.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">42.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">38.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-36.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-25.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-30.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BDL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BET</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BFL</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BGR</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">45.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">51.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">30.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">73.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BHM</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BIL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">26.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BIL</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BIS</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BIS</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">23.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">29.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">1.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">26.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">34.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">38.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">39.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">5.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">108.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">28.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-7.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">39.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">138.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BNA</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOI</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOI</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOI</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOI</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">43.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOI</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOI</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOI</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOI</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOI</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">28.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">22.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">37.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">35.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">8.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">44.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-27.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-22.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-12.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">33.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-10.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-26.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">20.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-40.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">22.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">7.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">59.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">6.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-2.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">103.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-23.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-20.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">48.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-26.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">139.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-0.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-20.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">217.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-30.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BOS</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTR</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTR</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTR</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTR</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTR</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTR</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">23.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTV</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTV</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTV</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTV</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-24.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTV</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTV</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTV</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-25.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTV</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BTV</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-28.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-8.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">119.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-29.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUF</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">40.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">45.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">39.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">28.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BUR</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">27.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">23.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">126.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">1.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-23.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">116.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-22.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">30.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">55.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">283.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">23.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">25.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-42.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">66.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">46.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-22.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">35.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">25.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BWI</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BZN</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">BZN</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CAE</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CAE</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">34.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CAE</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CAE</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CAE</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CAE</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CAE</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CAE</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">90.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CHA</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CHA</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CHO</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CHO</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CHS</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CHS</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">79.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CHS</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CHS</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CHS</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CID</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CID</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CID</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">29.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CID</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">37.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CID</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">0.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-24.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-18.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-3.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-19.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">1.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">11.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">110.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">124.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">23.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-4.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-20.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">49.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLE</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">36.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">39.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">29.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">28.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">23.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">49.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">4.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">58.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">3.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">49.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">16.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-7.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">28.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">58.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">220.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">37.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-23.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-9.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">32.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">116.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CLT</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-23.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">113.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">45.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-35.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-30.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">137.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">47.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">9.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMH</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMI</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CMI</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">88.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">32.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">46.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">119.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-15.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">COS</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CRP</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CRP</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CRP</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CRP</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CRP</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CRP</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CRW</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CRW</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CRW</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CRW</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">62.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CSG</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">12.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">20.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">31.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">137.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-19.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">40.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">65.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">18.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-21.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2001</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-19.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">75.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-0.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-4.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-20.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">21.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">67.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">38.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-30.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">CVG</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-20.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAB</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">30.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">3.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1997</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">52.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">35.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">36.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">49.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAL</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAY</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">265.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAY</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAY</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAY</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAY</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAY</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAY</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAY</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAY</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DAY</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">19.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">17.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">24.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">20.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">1.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-7.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-7.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-9.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1995</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1996</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">20.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">22.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1998</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">1999</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">57.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2000</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2002</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2003</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2004</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2005</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2006</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">-16.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">0.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">37.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2007</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-6.3333</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-14.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">107.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">-11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DCA</field>
+		<field name="colYear">2008</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">27.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-1.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1987</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">6.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1988</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-7.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">11.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">-7.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1989</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">1</field>
+		<field name="AVG(ArrDelay)">-8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">37.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1990</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">2</field>
+		<field name="AVG(ArrDelay)">-10.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">100.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1991</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">11.6667</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">13.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">8</field>
+		<field name="AVG(ArrDelay)">74.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">9</field>
+		<field name="AVG(ArrDelay)">-4.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">10</field>
+		<field name="AVG(ArrDelay)">8.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1992</field>
+		<field name="colMonth">12</field>
+		<field name="AVG(ArrDelay)">4.5000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">-12.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">26.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">6</field>
+		<field name="AVG(ArrDelay)">-22.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">-1.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1993</field>
+		<field name="colMonth">11</field>
+		<field name="AVG(ArrDelay)">-2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">3</field>
+		<field name="AVG(ArrDelay)">3.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">4</field>
+		<field name="AVG(ArrDelay)">5.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">5</field>
+		<field name="AVG(ArrDelay)">2.0000</field>
+	</row>
+
+	<row>
+		<field name="Origin">DEN</field>
+		<field name="colYear">1994</field>
+		<field name="colMonth">7</field>
+		<field name="AVG(ArrDelay)">7.0000</field>
+	</row>
+</resultset>

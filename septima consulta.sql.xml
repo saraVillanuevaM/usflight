@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT UniqueCarrier, AVG(ArrDelay)
+FROM flights
+GROUP BY UniqueCarrier
+HAVING COUNT(ArrDelay) <10
+Order by "ArrDelay"
+LIMIT 0, 1000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="UniqueCarrier">AQ</field>
+		<field name="AVG(ArrDelay)">1.375</field>
+	</row>
+
+	<row>
+		<field name="UniqueCarrier">HA</field>
+		<field name="AVG(ArrDelay)">-7.25</field>
+	</row>
+
+	<row>
+		<field name="UniqueCarrier">PS</field>
+		<field name="AVG(ArrDelay)">3</field>
+	</row>
+
+	<row>
+		<field name="UniqueCarrier">ML (1)</field>
+		<field name="AVG(ArrDelay)">-3</field>
+	</row>
+
+	<row>
+		<field name="UniqueCarrier">TZ</field>
+		<field name="AVG(ArrDelay)">38.57142857142857</field>
+	</row>
+</resultset>

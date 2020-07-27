@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT TailNum, SUM(Distance) as "Total_distance"
+FROM flights
+Group by TailNum
+Order by "Total_distance" ASC
+
+LIMIT 10"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="TailNum"></field>
+		<field name="Total_distance">941553</field>
+	</row>
+
+	<row>
+		<field name="TailNum">N582SW</field>
+		<field name="Total_distance">36</field>
+	</row>
+
+	<row>
+		<field name="TailNum">N958SW</field>
+		<field name="Total_distance">47</field>
+	</row>
+
+	<row>
+		<field name="TailNum">N561SW</field>
+		<field name="Total_distance">94</field>
+	</row>
+
+	<row>
+		<field name="TailNum">N229SW</field>
+		<field name="Total_distance">49</field>
+	</row>
+
+	<row>
+		<field name="TailNum">N959N</field>
+		<field name="Total_distance">56</field>
+	</row>
+
+	<row>
+		<field name="TailNum">N787NC</field>
+		<field name="Total_distance">1994</field>
+	</row>
+
+	<row>
+		<field name="TailNum">N583SW</field>
+		<field name="Total_distance">58</field>
+	</row>
+
+	<row>
+		<field name="TailNum">N288US</field>
+		<field name="Total_distance">762</field>
+	</row>
+
+	<row>
+		<field name="TailNum">N804AL</field>
+		<field name="Total_distance">64</field>
+	</row>
+</resultset>
